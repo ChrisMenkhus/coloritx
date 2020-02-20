@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ChrisMenkhus/coloritx/static/css/main.d39430cd.chunk.css",
+    "main.js": "/ChrisMenkhus/coloritx/static/js/main.bc8083f7.chunk.js",
+    "main.js.map": "/ChrisMenkhus/coloritx/static/js/main.bc8083f7.chunk.js.map",
+    "runtime-main.js": "/ChrisMenkhus/coloritx/static/js/runtime-main.fc926f92.js",
+    "runtime-main.js.map": "/ChrisMenkhus/coloritx/static/js/runtime-main.fc926f92.js.map",
+    "static/js/2.a01a9cb6.chunk.js": "/ChrisMenkhus/coloritx/static/js/2.a01a9cb6.chunk.js",
+    "static/js/2.a01a9cb6.chunk.js.map": "/ChrisMenkhus/coloritx/static/js/2.a01a9cb6.chunk.js.map",
+    "index.html": "/ChrisMenkhus/coloritx/index.html",
+    "precache-manifest.31c88b5fcc93d0512f7be1b6a6f2c691.js": "/ChrisMenkhus/coloritx/precache-manifest.31c88b5fcc93d0512f7be1b6a6f2c691.js",
+    "service-worker.js": "/ChrisMenkhus/coloritx/service-worker.js",
+    "static/css/main.d39430cd.chunk.css.map": "/ChrisMenkhus/coloritx/static/css/main.d39430cd.chunk.css.map",
+    "static/js/2.a01a9cb6.chunk.js.LICENSE.txt": "/ChrisMenkhus/coloritx/static/js/2.a01a9cb6.chunk.js.LICENSE.txt",
+    "static/media/codeImg.png": "/ChrisMenkhus/coloritx/static/media/codeImg.1dc35207.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc926f92.js",
+    "static/js/2.a01a9cb6.chunk.js",
+    "static/css/main.d39430cd.chunk.css",
+    "static/js/main.bc8083f7.chunk.js"
+  ]
+}

@@ -2,7 +2,7 @@
   "name": "coloritx",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ChrisMenkhus/coloritx",
+  "homepage": "https://chrismenkhus.github.io/coloritx/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",

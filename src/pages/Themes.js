@@ -108,7 +108,7 @@ const Themes = props => {
   }, [1]);
 
   const createListOfThemes = async () => {
-    fetch("http://localhost:3000/readthemes", {
+    fetch("https://sleepy-lowlands-41135.herokuapp.com/readthemes", {
       method: "post",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({
@@ -125,7 +125,7 @@ const Themes = props => {
   };
 
   const createTheme = async () => {
-    fetch("http://localhost:3000/createtheme", {
+    fetch("https://sleepy-lowlands-41135.herokuapp.com/createtheme", {
       method: "post",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({
@@ -143,7 +143,7 @@ const Themes = props => {
   };
 
   const deleteTheme = async () => {
-    fetch("http://localhost:3000/deletetheme", {
+    fetch("https://sleepy-lowlands-41135.herokuapp.com/deletetheme", {
       method: "post",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({
@@ -160,7 +160,7 @@ const Themes = props => {
   };
 
    const updateTheme = async (id, name) => {
-    fetch("http://localhost:3000/updatetheme", {
+    fetch("https://sleepy-lowlands-41135.herokuapp.com/updatetheme", {
       method: "post",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({
@@ -178,7 +178,7 @@ const Themes = props => {
   };
 
   const createListOfColors = async theme_id => {
-    fetch("http://localhost:3000/readcolors", {
+    fetch("https://sleepy-lowlands-41135.herokuapp.com/readcolors", {
       method: "post",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({
@@ -197,7 +197,7 @@ const Themes = props => {
 
 
   const createColor = async () => {
-    fetch("http://localhost:3000/createcolor", {
+    fetch("https://sleepy-lowlands-41135.herokuapp.com/createcolor", {
       method: "post",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({
@@ -213,7 +213,7 @@ const Themes = props => {
   };
 
   const updateColor = async (id, color, name) => {
-    fetch("http://localhost:3000/updatecolor", {
+    fetch("https://sleepy-lowlands-41135.herokuapp.com/updatecolor", {
       method: "post",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({
@@ -231,7 +231,7 @@ const Themes = props => {
   };
 
   const deleteColor = async (id) => {
-    fetch("http://localhost:3000/deletecolor", {
+    fetch("https://sleepy-lowlands-41135.herokuapp.com/deletecolor", {
       method: "post",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({

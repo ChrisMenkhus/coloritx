@@ -43,7 +43,7 @@ const Signup = props => {
 
   const handleSubmit = () => {
     console.log("submiting form");
-    fetch("http://localhost:3000/register", {
+    fetch("https://sleepy-lowlands-41135.herokuapp.com/register", {
       method: "post",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({

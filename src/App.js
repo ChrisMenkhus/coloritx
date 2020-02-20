@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import styled from "styled-components";
-import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 import BigNavbar from "./components/BigNavbar.js";
 import ToggleNavButton from "./components/ToggleNavButton.js";
 import PageContainer from "./components/PageContainer.js";
